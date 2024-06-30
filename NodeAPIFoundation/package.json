@@ -1,0 +1,29 @@
+{
+  "name": "node-api-foundation",
+  "version": "1.0.0",
+  "description": "Une API développée avec Node.js et Express pour la gestion des utilisateurs et l'authentification.",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Santoudllo/NodeExpressMongoAPI.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api",
+    "authentication",
+    "user-management"
+  ],
+  "author": "Mamadou Alimou Diallo <mamadoualimou.diallo@ynov.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Santoudllo/NodeExpressMongoAPI/issues"
+  },
+  "homepage": "https://github.com/Santoudllo/NodeExpressMongoAPI#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

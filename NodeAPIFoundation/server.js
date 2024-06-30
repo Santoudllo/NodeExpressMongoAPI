@@ -1,12 +1,12 @@
 const express = require('express');
 const app = express();
 
-const port = process.env.PORT || 3000; // Use the port provided by the host or default to 3000
+const port = process.env.PORT || 3000; //  3000 le port choisi 
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
 
-// Define a route to handle incoming requests
+// Definir  la route 
 app.get('/', (req, res) => {
-  res.send('Hello, Express!');
+  res.send('Hello');
 });
